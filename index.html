@@ -1,16 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my website</title>
+    <style>
+        .box {
+            border: 2px dotted peru;
+            width: 200px;
+        }
+
+        /* .girl{
+            position: relative;
+            left: -50px;
+        } */
+        /* .girl{
+            position: absolute;
+            top: 50px;
+        } */
+
+        /* .girl {
+            position: sticky;
+            top: 0;
+        } */
+
+        .girl{
+            position:fixed;
+            top:100px;
+            right: 100px;
+        }
+        .dummy {
+            border: 2px solid red;
+            width: 200px;
+            height: 200px;
+        }
+
+       
+
+        .another {
+            border: 2px solid blue;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
 
     <link rel="stylesheet" href="styles/css.css">
 </head>
+
 <body>
     <div>
         <h1>THIS IS MY FIRST WEBSITE</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias consequuntur dolor, dolorum porro recusandae in nostrum, sunt beatae, alias aliquam libero quos doloribus qui repellat accusantium a nisi cupiditate autem!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias consequuntur dolor, dolorum porro
+            recusandae in nostrum, sunt beatae, alias aliquam libero quos doloribus qui repellat accusantium a nisi
+            cupiditate autem!</p>
     </div>
+    <h3>CSS Position</h3>
+    <h1>CSS Position</h1>
+    <ol>
+        <!-- Flow related -->
+        <li>Static</li>
+        <li>Relative: </li>
+        <li>Absolute</li>
+        <!-- scroll related -->
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+
+    <div class="swim-container">
+        <div class="box">
+            <img src="images/man.png" alt="">
+        </div>
+        <div class="box girl">
+            <img src="images/girl.png" alt="">
+        </div>
+        <div class="box">
+            <img src="images/flower_2.png" alt="">
+        </div>
+
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </div>
+
+    <div class="another">
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </div>
+
 </body>
+
 </html>
